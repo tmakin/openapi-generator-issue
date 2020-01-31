@@ -6,6 +6,6 @@
     "build": "openapi-generator generate -i openapi.yaml -g aspnetcore -o output"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "1.0.8-4.2.2"
+    "@openapitools/openapi-generator-cli": "1.0.10-4.2.3"
   }
 }
