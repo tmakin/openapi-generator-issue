@@ -1,0 +1,11 @@
+{
+  "name": "openapi-generator-issue",
+  "version": "1.0.0",
+  "description": "Basic repo to illustrate issue with aspnetcore openapi generator when using Bearer auth roles",
+  "scripts": {
+    "build": "openapi-generator generate -i openapi.yaml -g aspnetcore -o output"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "1.0.8-4.2.2"
+  }
+}
